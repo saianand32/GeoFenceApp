@@ -12,7 +12,7 @@ import {
 import GetLocation from 'react-native-get-location';
 import axios from 'axios';
 let strGlobal = "";
-const url = 'https://46ae-210-212-203-67.in.ngrok.io/livelocationtemp/live'
+const url = 'https://9733-210-212-203-67.in.ngrok.io/livelocationtemp/live'
 
 
 

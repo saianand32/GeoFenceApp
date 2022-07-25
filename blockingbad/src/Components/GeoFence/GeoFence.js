@@ -174,7 +174,7 @@ const [triangleCoords,setTriangleCoords] = useState([]);
        <GoogleMap
             mapContainerStyle={mapStyles}
             zoom={13}
-            center={currentPosition} 
+            center={currentPosition} //************************************************************************************************************************************************************** */
             >
           {console.log("hello11")}
           {

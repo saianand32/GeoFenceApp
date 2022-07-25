@@ -11,6 +11,8 @@ function Alert() {
   const [bool, setBool]  = useState("false");
   const [str,setStr] = useState("Dormant....")
   const [borders,setBorders] = useState("wheat");
+  const [text,setText] = useState("Click the ActivateFence button below ");
+  const [btnTxt,setBtnTxt] = useState("Activate GeoFence");
 
   const activateGeo=async()=>{
     try {
@@ -20,18 +22,21 @@ function Alert() {
     
 
       setStr("Active !!!")
+      setBtnTxt("Active")
 
       if(a=="true"){
         setBorders("green");
+        setText("Your ward is inside the Safe Zone");
       }
       if(a=="false")
       {
         setBorders("red");
+        setText("Warning!!! Your ward is outside the fence Zone");
       }
 
       setTimeout(() => {
         activateGeo();
-      }, 3000);
+      }, 1000);
 
     } catch (error) {
       console.log(error.response.data);
@@ -46,14 +51,16 @@ function Alert() {
     <div className='alertContainer' style={{marginTop:"40vh"}}>
 
     {/* <h1 >boolval = {mode}</h1> */}
-    <h1 >Your GeoFence is {bool}</h1>
+    <h1 >Your GeoFence is {str}</h1>
     <div className={borders}>
-      <div className='light'>
+      <div className='sample' style={{margin:"auto"}}>
         {/* <img src="" alt=""/> */}
-        <div className='text_alert'>Hello My Name is Utsav</div>
+       <h2 className="textAlert">{text}</h2>
+       <div className="light" > </div>
+       
       </div>
     </div>
-    <button className='activateButton' onClick={activateGeo}>Activate Geofence</button>
+    <button className='activateButton' onClick={activateGeo}>{btnTxt}</button>
 
     </div>
     </>

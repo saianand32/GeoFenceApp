@@ -18,7 +18,7 @@ export default function Navbar() {
           <a  className="nav-logo" style={{maxWidth:"450px"}} onClick = {()=>{
             scroll.scrollToTop()
           }}>
-            <h3>BlockingBad</h3>           
+            <h3>GeoFence</h3>           
           </a>
         
 
