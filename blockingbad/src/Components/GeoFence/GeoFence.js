@@ -194,7 +194,6 @@ const [triangleCoords,setTriangleCoords] = useState([]);
           id  = "polypath"
           ref = {polypath}/> */}
           <PolyPathLine />
-
        </GoogleMap>
   
        {/* <button style={{width:"100px",height:"50px"}} onClick = {mapPointAdd}>ADD</button> */}
@@ -204,7 +203,7 @@ const [triangleCoords,setTriangleCoords] = useState([]);
      <input type="text" name="" id="" ref = {latref} onChange={handleOnChange} />
      <input type="text" name="" id="" ref = {lonref} onChange={handleOnChange}  />
 
-     <button style={{width:"90px",height:"30px",background:"white"}} onClick={handleOnClick}>click to add</button>
+     <button style={{width:"90px",height:"30px",background:"white"}} onClick={handleOnClick}>Click to add</button>
   {/* <br /> */}
      <input type="text" name="" id="" ref = {livelat}/>
     <input type="text" name="" id="" ref = {livelon}/>

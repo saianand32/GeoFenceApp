@@ -35,8 +35,11 @@
     border-radius: 10000px;
     height: 60vh;
     border: 7px solid wheat;
-
+    background-repeat: no-repeat;
 }
+/* .wheat > .light{
+    height: 30px;
+} */
 .red{
     border: 7px solid red;
     max-width: 50vw;
@@ -51,3 +54,36 @@
     border-radius: 10000px;
     height: 60vh;
 }
+
+/* .wheat > .light{
+    background-image: url('../../assets/red_light.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:60px 0 0 100px;
+    height: 250px;
+    width: 250px;
+    z-index: 100000;
+} */
+
+.red > .light{
+    background-image: url('../../assets/red_light.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:60px 0 0 100px;
+    height: 250px;
+    width: 250px;
+    z-index: 100000;
+}
+.green > .light{
+    background-image: url('../../assets/green_light.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:60px 0 0 100px;
+    height: 250px;
+    width: 250px;
+    z-index: 100000;
+}
+
+/* .text_alert{
+    margin: 350px 0 0 200px;
+} */

@@ -48,7 +48,10 @@ function Alert() {
     {/* <h1 >boolval = {mode}</h1> */}
     <h1 >Your GeoFence is {bool}</h1>
     <div className={borders}>
-
+      <div className='light'>
+        {/* <img src="" alt=""/> */}
+        <span className='text_alert'>Hello My Name is Utsav</span>
+      </div>
     </div>
     <button className='activateButton' onClick={activateGeo} style={{background:"white"}}>Activate Geofence</button>
 
