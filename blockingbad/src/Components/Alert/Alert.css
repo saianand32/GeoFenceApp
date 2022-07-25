@@ -30,6 +30,9 @@
 }
 
 .wheat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     max-width: 50vw;
     margin: auto;
     border-radius: 10000px;
@@ -41,6 +44,9 @@
     height: 30px;
 } */
 .red{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: 7px solid red;
     max-width: 50vw;
     margin: auto;
@@ -48,6 +54,9 @@
     height: 60vh;
 }
 .green{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: 7px solid green;
     max-width: 50vw;
     margin: auto;
@@ -55,7 +64,7 @@
     height: 60vh;
 }
 
-/* .wheat > .light{
+.wheat > .light{
     background-image: url('../../assets/red_light.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -63,7 +72,7 @@
     height: 250px;
     width: 250px;
     z-index: 100000;
-} */
+}
 
 .red > .light{
     background-image: url('../../assets/red_light.png');
@@ -87,3 +96,15 @@
 /* .text_alert{
     margin: 350px 0 0 200px;
 } */
+
+.activateButton{
+    background: linear-gradient(90deg, rgba(87, 123, 221, 1) 0%, rgba(252, 125, 33, 1) 46%, rgba(252, 125, 33, 1) 60%);
+    margin-top: 10px;
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    color: #161527;
+    border: none;
+}

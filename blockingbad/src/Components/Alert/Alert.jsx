@@ -50,10 +50,10 @@ function Alert() {
     <div className={borders}>
       <div className='light'>
         {/* <img src="" alt=""/> */}
-        <span className='text_alert'>Hello My Name is Utsav</span>
+        <div className='text_alert'>Hello My Name is Utsav</div>
       </div>
     </div>
-    <button className='activateButton' onClick={activateGeo} style={{background:"white"}}>Activate Geofence</button>
+    <button className='activateButton' onClick={activateGeo}>Activate Geofence</button>
 
     </div>
     </>
