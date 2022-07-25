@@ -23,11 +23,6 @@
     -moz-text-fill-color: transparent;
 }
 
-.activateButton{
-    width: 100px;
-    width: 50px;
-    background: white;
-}
 
 .wheat{
     display: flex;
@@ -39,6 +34,7 @@
     height: 60vh;
     border: 7px solid wheat;
     background-repeat: no-repeat;
+    box-shadow: 5px 5px 30px 7px rgba(233, 8, 8, 0.822), -5px -5px 30px 7px rgba(228, 11, 11, 0.22);
 }
 /* .wheat > .light{
     height: 30px;
@@ -52,6 +48,7 @@
     margin: auto;
     border-radius: 10000px;
     height: 60vh;
+    box-shadow: 5px 5px 30px 7px rgba(231, 10, 10, 0.25), -5px -5px 30px 7px rgba(226, 14, 14, 0.22);
 }
 .green{
     display: flex;
@@ -62,6 +59,7 @@
     margin: auto;
     border-radius: 10000px;
     height: 60vh;
+    box-shadow: 5px 5px 30px 7px rgba(99, 231, 10, 0.25), -5px -5px 30px 7px rgba(99, 226, 14, 0.22);
 }
 
 .wheat > .light{
@@ -107,4 +105,5 @@
     border-radius: 20px;
     color: #161527;
     border: none;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
 }

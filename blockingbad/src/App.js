@@ -21,7 +21,7 @@ function App() {
           <About/>
           {/* <Link to="/alert">Alert</Link> */}
 
-          {/* <GeoFence  /> */}
+          <GeoFence  />
           <Alert />
           <Contact/>
         </div>
