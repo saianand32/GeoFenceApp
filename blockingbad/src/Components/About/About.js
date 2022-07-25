@@ -9,20 +9,20 @@ function About() {
       </div>
         <div className='how_to_use' > 
            <p className='text_how_to_uses'>
-            <b className='number_color'>1.</b> Select the websites you want to block in the "<i><b>Select Websites to Block</b></i>" section of the website.
+            <b className='number_color'>1.</b> Click on the "<i><b>Create</b></i>" option in navbar.
             <br/>
-            <b className='number_color'>2.</b> If you want to block any other website other than the specified websites, then enter the name of the website or the url of the website. The domain name to be blocked will be automatically detected.
+            <b className='number_color'>2.</b> Use the given marker on the maps interface to draw the required geofence around the location.
             <br/>
-            <b className='number_color'>3.</b> After selecting the websites click "<i><b>Click and Download File</b></i>" button.
-            <font size="3">--after waiting for 3 seconds a .zip file will be downloaded--</font>
+            <b className='number_color'>3.</b> After drawing the geofence, click on the "<i><b>Add Geofence button</b></i>" .
+           
             <br/>
-            <b className='number_color'>4.</b> Unzip the file at any place on your pc.
+            <b className='number_color'>4.</b> This will take you to the activate fence page.
             <br/>
-            <b className='number_color'>5.</b> Now go to "<i><b>Manage Extensions</b></i>" of chrome and select "<i><b>Load Unpacked</b></i>" at top left corner of the page.
+            <b className='number_color'>5.</b> Now go to "<i><b>Your Mobile App</b></i>" and click the button to send "<i><b>Location</b></i>" to the server.
             <br/>
-            <b className='number_color'>6.</b> Now navigate to the zipped file and select it.
+            <b className='number_color'>6.</b> Now on the activate fence page click on the "<i><b>Activate Fence</b></i>" button to activate your fence.
             <br/>
-            <b className='number_color'>7.</b> Switch on the extension and volla !! It's done.
+            <b className='number_color'>7.</b>Now Your fence is up and running !!!
            </p>
         </div>
     </div>

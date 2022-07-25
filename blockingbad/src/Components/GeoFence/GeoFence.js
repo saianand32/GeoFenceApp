@@ -1,5 +1,6 @@
 import React,{useState,useRef} from 'react';
 import { GoogleMap, LoadScript,Marker,Polyline } from '@react-google-maps/api';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import axios from 'axios'
 import './GeoFence.css'
 const url = 'http://127.0.0.1:8000/fencepoints/boy'
@@ -157,8 +158,8 @@ const [triangleCoords,setTriangleCoords] = useState([]);
   
   
     return (
-      <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",maxHeight:"80vh"}} id = "create">
-      <div style={{textAlign:"center",marginTop:"52vh"}}>
+      <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",maxHeight:"100vh"}} id = "create">
+      <div style={{textAlign:"center",marginTop:"22vh"}}>
         <h1 id="geoHeading">Customize Your GeoFence</h1>
       <LoadScript
          googleMapsApiKey='AIzaSyB0fs4ZMf6ItAB0z0t_osPQBr8DbTS3tpw'>
@@ -203,7 +204,9 @@ const [triangleCoords,setTriangleCoords] = useState([]);
      <input type="text" name="" id="" ref = {latref} onChange={handleOnChange} />
      <input type="text" name="" id="" ref = {lonref} onChange={handleOnChange}  />
 
-     <button style={{width:"90px",height:"30px",background:"white"}} onClick={handleOnClick}>Click to add</button>
+     <Link to="alert">
+     <button className='activateButton' onClick={handleOnClick}>Add Fence</button>
+     </Link>
   {/* <br /> */}
      <input type="text" name="" id="" ref = {livelat}/>
     <input type="text" name="" id="" ref = {livelon}/>

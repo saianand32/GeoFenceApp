@@ -14,11 +14,14 @@ function Home() {
         <h1 style={{ marginTop: "1.3em" }}>
           Hello There !!
           <br />
-          It's me, Blocking Bad
-          <br />I can help you with blocking
+          This is a Custom GeoFence Maker
+          <br />It can help you with building custom geofences 
           <br />
-          unwanted sites for your children and
+          for Alzheimer Patients at home with ease.
           <br />
+          <br />
+          Continue below to get Started !!
+        
         </h1>
       </div>
 

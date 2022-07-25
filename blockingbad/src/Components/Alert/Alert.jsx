@@ -47,10 +47,11 @@ function Alert() {
   
 
   return (
-    <>
-    <div className='alertContainer' style={{marginTop:"40vh"}}>
+    
+    <div  id="alert" style={{marginBottom:"auto" ,height:"100vh"}} className='alertContainer' >
 
     {/* <h1 >boolval = {mode}</h1> */}
+    <div >
     <h1 >Your GeoFence is {str}</h1>
     <div className={borders}>
       <div className='sample' style={{margin:"auto"}}>
@@ -61,9 +62,10 @@ function Alert() {
       </div>
     </div>
     <button className='activateButton' onClick={activateGeo}>{btnTxt}</button>
+    </div>
 
     </div>
-    </>
+  
   )
 }
 
