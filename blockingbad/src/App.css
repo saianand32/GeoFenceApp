@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+  width:10px;
+}
+::-webkit-scrollbar-track{
+  background:#7d7ba6;
+}
+::-webkit-scrollbar-thumb{
+  background: rgb(224, 112, 33);
+}
+.sections{
+  scroll-snap-type: y mandatory;
+}
+*{
+  scroll-snap-align: start;
+}

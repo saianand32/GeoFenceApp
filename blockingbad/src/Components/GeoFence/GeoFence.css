@@ -1,0 +1,9 @@
+#geoHeading{
+    background: rgb(87, 123, 221);
+    background: linear-gradient(90deg, rgba(87, 123, 221, 1) 0%, rgba(87, 123, 221, 1) 40%, rgba(252, 125, 33, 1) 47%, rgba(252, 125, 33, 1) 90%);
+  
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
