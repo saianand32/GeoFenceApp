@@ -177,7 +177,7 @@ const [triangleCoords,setTriangleCoords] = useState([]);
             zoom={13}
             center={currentPosition} //************************************************************************************************************************************************************** */
             >
-          {console.log("hello11")}
+          {/* {console.log("hello11")} */}
           {
               currentPosition.lat ? 
               <Marker
